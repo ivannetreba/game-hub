@@ -6,7 +6,7 @@ import useOrders, { Order } from "../hooks/useOrders";
 
 interface Props {
   onSelectedOrder: (order: string) => void;
-  selectedOrder: string | null;
+  selectedOrder: string;
 }
 
 const SortSelector = ({ onSelectedOrder, selectedOrder }: Props) => {
